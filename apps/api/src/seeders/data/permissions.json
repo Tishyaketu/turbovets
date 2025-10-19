@@ -1,0 +1,74 @@
+{
+    "permissions": [
+      {
+        "name": "create_task",
+        "description": "Create new tasks",
+        "resource": "task",
+        "action": "create",
+        "roles": ["owner", "admin", "viewer"]
+      },
+      {
+        "name": "read_task",
+        "description": "View tasks",
+        "resource": "task",
+        "action": "read",
+        "roles": ["owner", "admin", "viewer"]
+      },
+      {
+        "name": "update_task",
+        "description": "Update existing tasks",
+        "resource": "task",
+        "action": "update",
+        "roles": ["owner", "admin", "viewer"]
+      },
+      {
+        "name": "delete_task",
+        "description": "Delete tasks",
+        "resource": "task",
+        "action": "delete",
+        "roles": ["owner", "admin"]
+      },
+      {
+        "name": "view_all_tasks",
+        "description": "View all tasks in organization",
+        "resource": "task",
+        "action": "view_all",
+        "roles": ["owner", "admin"]
+      },
+      {
+        "name": "manage_all_tasks",
+        "description": "Manage all tasks in organization",
+        "resource": "task",
+        "action": "manage_all",
+        "roles": ["owner", "admin"]
+      },
+      {
+        "name": "manage_users",
+        "description": "Create, update, delete users",
+        "resource": "user",
+        "action": "manage",
+        "roles": ["owner"]
+      },
+      {
+        "name": "view_users",
+        "description": "View user information",
+        "resource": "user",
+        "action": "view",
+        "roles": ["owner", "admin"]
+      },
+      {
+        "name": "manage_organization",
+        "description": "Manage organization settings",
+        "resource": "organization",
+        "action": "manage",
+        "roles": ["owner"]
+      },
+      {
+        "name": "view_audit_log",
+        "description": "View audit logs",
+        "resource": "audit",
+        "action": "view",
+        "roles": ["owner", "admin"]
+      }
+    ]
+  }

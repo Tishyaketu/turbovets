@@ -1,0 +1,19 @@
+{
+    "roles": [
+      {
+        "name": "owner",
+        "description": "Full system access - can manage everything",
+        "priority": 100
+      },
+      {
+        "name": "admin",
+        "description": "Can manage tasks and view audit logs",
+        "priority": 50
+      },
+      {
+        "name": "viewer",
+        "description": "Can only view and manage own tasks",
+        "priority": 10
+      }
+    ]
+  }

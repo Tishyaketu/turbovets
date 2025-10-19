@@ -1,0 +1,25 @@
+{
+    "organizations": [
+      {
+        "name": "Acme Corporation",
+        "description": "Parent organization - Technology Solutions Provider",
+        "isParent": true,
+        "children": [
+          {
+            "name": "Acme West Division",
+            "description": "West Coast Operations"
+          },
+          {
+            "name": "Acme East Division",
+            "description": "East Coast Operations"
+          }
+        ]
+      },
+      {
+        "name": "TechStart Inc",
+        "description": "Standalone startup organization",
+        "isParent": false,
+        "children": []
+      }
+    ]
+  }

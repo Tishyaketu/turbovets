@@ -6,7 +6,8 @@
     "prepare": "husky",
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts,.js",
-    "lint:fix": "eslint . --ext .ts,.js --fix"
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "seed": "tsc --project apps/api/tsconfig.app.json && node ./dist/apps/api/src/seeders/index.js"
   },
   "private": true,
   "dependencies": {
@@ -20,8 +21,16 @@
     "@nestjs/common": "^11.0.0",
     "@nestjs/core": "^11.0.0",
     "@nestjs/platform-express": "^11.0.0",
-    "reflect-metadata": "^0.1.13",
+    "@nestjs/typeorm": "^11.0.0",
+    "@types/bcrypt": "^6.0.0",
+    "bcrypt": "^6.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "dotenv": "^17.2.3",
+    "reflect-metadata": "^0.1.14",
     "rxjs": "~7.8.0",
+    "sqlite3": "^5.1.7",
+    "typeorm": "^0.3.27",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
@@ -51,7 +60,8 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/jest": "^29.5.12",
-    "@types/node": "20.19.9",
+    "@types/node": "^20.19.9",
+    "@types/sqlite3": "^3.1.11",
     "@typescript-eslint/eslint-plugin": "^8.46.1",
     "@typescript-eslint/parser": "^8.46.1",
     "@typescript-eslint/utils": "^8.40.0",
@@ -70,7 +80,7 @@
     "nx": "21.6.5",
     "prettier": "^2.8.8",
     "ts-jest": "^29.1.0",
-    "ts-node": "10.9.1",
+    "ts-node": "^10.9.1",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",

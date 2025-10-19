@@ -1,0 +1,61 @@
+{
+    "users": [
+      {
+        "email": "john.owner@acme.com",
+        "password": "Owner123!",
+        "firstName": "John",
+        "lastName": "Owner",
+        "role": "owner",
+        "organization": "Acme Corporation"
+      },
+      {
+        "email": "jane.admin@acme.com",
+        "password": "Admin123!",
+        "firstName": "Jane",
+        "lastName": "Admin",
+        "role": "admin",
+        "organization": "Acme Corporation"
+      },
+      {
+        "email": "bob.viewer@acme.com",
+        "password": "Viewer123!",
+        "firstName": "Bob",
+        "lastName": "Viewer",
+        "role": "viewer",
+        "organization": "Acme Corporation"
+      },
+      {
+        "email": "alice.admin@acmewest.com",
+        "password": "Admin123!",
+        "firstName": "Alice",
+        "lastName": "Regional",
+        "role": "admin",
+        "organization": "Acme West Division"
+      },
+      {
+        "email": "charlie.viewer@acmewest.com",
+        "password": "Viewer123!",
+        "firstName": "Charlie",
+        "lastName": "Employee",
+        "role": "viewer",
+        "organization": "Acme West Division"
+      },
+      {
+        "email": "david.owner@techstart.com",
+        "password": "Owner123!",
+        "firstName": "David",
+        "lastName": "Founder",
+        "role": "owner",
+        "organization": "TechStart Inc"
+      },
+      {
+        "email": "eve.admin@techstart.com",
+        "password": "Admin123!",
+        "firstName": "Eve",
+        "lastName": "Manager",
+        "role": "admin",
+        "organization": "TechStart Inc"
+      }
+    ]
+  }
+  
